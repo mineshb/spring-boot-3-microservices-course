@@ -33,7 +33,7 @@
         <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
           <image>
-            <name>saiupadhyayula007/new-${project.artifactId}</name>
+            <name>mineshdev/${project.artifactId}</name>
             <builder>dashaun/builder:tiny</builder>
             <publish>true</publish>
           </image>
